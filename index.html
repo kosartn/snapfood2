@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snapp Food fall edition</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+    <div class="header-box">
+        <h1>🍁اسنپ فود ورژن پاییزی🍂</h1>
+    </div>
+
+    <div id="menu" class="menu"></div>
+
+    <div class="card add-food">
+        <h3> افزودن غذاهای جدید</h3>
+        <input type="text" id="foodName" placeholder="نام غذا">
+        <input type="text" id="foodDesc" placeholder="مواد / توضیحات">
+        <input type="number" id="foodPrice" placeholder="قیمت">
+        <button id="addFoodBtn">افزودن</button>
+    </div>
+
+    <div class="cart">
+        <h2>سبد خرید</h2>
+        <ul id="cartItems"></ul>
+        <p>مجموع: <span id="totalPrice">0</span> تومان</p>
+        <button id="submit">ثبت سفارش</button>
+        <button id="resetOrder">سفارش جدید</button>
+        <p id="message"></p>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
